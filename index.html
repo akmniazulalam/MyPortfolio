@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="src/all.min.css" />
+    <link rel="stylesheet" href="src/output.css" />
+  </head>
+  <!-- <body class="bg-gradient-to-l from-[#010A10] to-[#021019] text-gray-800 scroll-smooth"> -->
+  <body class="bg-boxesBg text-gray-800 scroll-smooth">
+    <!-- Navbar -->
+    <header class="fixed w-full bg-[#050709] shadow z-50 py-4 top-0 left-0" id="stickyHeader">
+      <nav
+        class="max-w-[1170px] m-auto px-4 py-3 flex items-center justify-between">
+        <a href="#" class="text-xl font-bold text-blue-600 font-rubik">MyPortfolio</a>
+        <ul class="flex space-x-6 text-[20px] font-bold font-rajdhani">
+          <li>
+            <a
+              href="#home"
+              class="nav-link text-white hover:text-blue-600 py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#about"
+              class="nav-link text-white hover:text-blue-600 py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="#skills"
+              class="nav-link text-white hover:text-blue-600 py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <a
+              href="#portfolio"
+              class="nav-link text-white hover:text-blue-600 py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="nav-link text-white hover:text-blue-600 py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <ul class="flex space-x-6 text-[20px] font-bold font-rajdhani">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/akmniazulalam/"
+              target="_blank"
+              class="text-white hover:text-blue-600 py-2.5 px-3.5 rounded-full bg-[#1e1e1e] hover:bg-hoverBg transition-all duration-500"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/akmniazulalam"
+              target="_blank"
+              class="text-white hover:text-blue-600 py-2.5 px-[17px] rounded-full bg-[#1e1e1e] hover:bg-hoverBg transition-all duration-500"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.github.com/akmniazulalam"
+              target="_blank"
+              class="text-white hover:text-blue-600 py-2.5 px-3.5 rounded-full bg-[#1e1e1e] hover:bg-hoverBg transition-all duration-500"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    
+      <!-- Home -->
+      <section
+        id="home"
+        class="min-h-screen flex items-center justify-center bg-gradient-to-b from-[#070723] to-[#2E212A]">
+        <div class="text-center">
+          <h2
+            class="text-4xl md:text-5xl font-bold text-blue-700 font-rajdhani">
+            Hi, I'm <span id="element"></span>
+          </h2>
+          <!-- <p class="mt-4 text-lg text-gray-700 font-rubik">
+            Frontend Developer | React & Tailwind Expert
+          </p> -->
+          <a href="src/asset/A.K.M. Niazul Alam(Resume).pdf" target="_blank">
+            <button
+            class="mt-6 px-6 py-2 bg-blue-600 text-white rounded cursor-pointer hover:bg-boxesBg font-sora transition-all duration-300">
+            Download Resume
+          </button>
+          </a>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="max-w-4xl mx-auto px-4 py-[100px]">
+        <h2
+          class="text-3xl font-bold text-center text-blue-700 mb-6 font-rajdhani">
+          About Me
+        </h2>
+        <p
+          class="text-gray-700 text-lg leading-relaxed text-center font-poppinsForText">
+          I'm a passionate web developer skilled in HTML, CSS, JavaScript,
+          Tailwind CSS, jQuery, and React. I love building clean and modern UI
+          with great user experiences.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="max-w-4xl mx-auto px-4 py-[100px]">
+        <h2
+          class="text-3xl font-bold text-center text-blue-700 mb-8 font-rubik">
+          My Skills
+        </h2>
+
+        <div class="space-y-6">
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-white font-medium font-rubik">HTML</span>
+              <span class="text-white font-rubik">95%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3">
+              <div class="bg-[#E34F26] h-3 rounded-full w-[95%]"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-white font-medium font-rubik">CSS</span>
+              <span class="text-white font-rubik">90%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3">
+              <div class="bg-[#1572B6] h-3 rounded-full w-[90%]"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-white font-medium font-rubik">Bootstrap</span>
+              <span class="text-white font-rubik">95%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3">
+              <div class="bg-[#7952B3] h-3 rounded-full w-[95%]"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-white font-medium font-rubik">JavaScript</span>
+              <span class="text-white font-rubik">85%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3">
+              <div class="bg-[#F7DF1E] h-3 rounded-full w-[85%]"></div>
+            </div>
+          </div>
+
+
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-white font-medium font-rubik">jQuery</span>
+              <span class="text-white font-rubik">75%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3">
+              <div class="bg-[#0769AD] h-3 rounded-full w-[75%]"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-white font-medium font-rubik">Tailwind CSS</span>
+              <span class="text-white font-rubik">90%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3">
+              <div class="bg-[#06B6D4] h-3 rounded-full w-[90%]"></div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="text-white font-rubik font-medium">React.js</span>
+              <span class="text-white font-rubik">80%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-3">
+              <div class="bg-[#61DAFB] h-3 rounded-full w-[80%]"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="max-w-6xl mx-auto px-4 pt-[100px]">
+        <h2
+          class="text-3xl font-bold text-center text-blue-700 mb-8 font-rajdhani">
+          Portfolio
+        </h2>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div class="bg-white shadow rounded p-4 hover:shadow-lg">
+            <h3 class="font-semibold text-lg">Project One</h3>
+            <p class="text-gray-600">Description of the project.</p>
+          </div>
+          <div class="bg-white shadow rounded p-4 hover:shadow-lg">
+            <h3 class="font-semibold text-lg">Project Two</h3>
+            <p class="text-gray-600">Description of the project.</p>
+          </div>
+          <div class="bg-white shadow rounded p-4 hover:shadow-lg">
+            <h3 class="font-semibold text-lg">Project Three</h3>
+            <p class="text-gray-600">Description of the project.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="max-w-3xl mx-auto px-4 py-[100px]">
+        <h2
+          class="text-3xl font-bold text-center text-blue-700 mb-6 font-rajdhani">
+          Contact Me
+        </h2>
+        <form class="space-y-4">
+          <input
+            type="text"
+            placeholder="Your Name"
+            class="w-full p-3 border rounded placeholder:text-gray-600 text-gray-600 focus:outline-0"
+            required />
+          <input
+            type="email"
+            placeholder="Your Email"
+            class="w-full p-3 border rounded placeholder:text-gray-600 text-gray-600 focus:outline-0"
+            required />
+          <textarea
+            placeholder="Your Message"
+            class="w-full p-3 border rounded h-32 placeholder:text-gray-600 text-gray-600 focus:outline-0 resize-none"
+            required></textarea>
+          <button
+            type="submit"
+            class="bg-blue-600 text-white px-6 py-2 rounded cursor-pointer hover:bg-hoverBg font-sora transition-all duration-300">
+            Send Message
+          </button>
+        </form>
+      </section>
+    
+
+    <!-- Footer -->
+    <footer class="text-center py-6 text-gray-600">
+      &copy; 2025 Your Name. All rights reserved.
+    </footer>
+
+
+    <div id="back-to-top" class="hidden fixed bottom-8 right-8 text-[40px] hover:text-[#ff0b0b] text-[#0239ff] transition-all duration-300">
+      <a href="#"><i class="fa-regular fa-circle-up"></i></a>
+    </div>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

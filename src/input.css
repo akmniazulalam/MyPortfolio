@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@plugin "daisyui";
+
+@theme {
+  --color-blaack: linear-gradient(to left, #010A10, #021019);
+  --color-reverseBlack: linear-gradient(to left, #020F17, #010A10);
+  --color-bluish: linear-gradient(to bottom, #0C71BE, #053A6D);
+  --color-bluishBottomLeft: linear-gradient(to top right, #0D4A76, #06131B);
+  --color-linear: linear-gradient(to top right, #073051, #021726);
+  --color-simpleGradient: linear-gradient(to bottom, #2E212A, #070723);
+  --color-bgGradient: linear-gradient(to right, #0B0B0B, #270510);
+  --color-textGradient: linear-gradient(to right, #139bfd, #13fdfd);
+  --color-purple: linear-gradient(to right, #050709, #231840);
+  --color-purpleBtn: linear-gradient(to right, #8750f7 0%, #2a1454 51%, #8750f7 100%);
+  --color-backToTopBlue: #139BFD;
+  --color-header: #06131B;
+  --color-textPurple: #8750F7;
+  --color-boxesBg: #0f0715;
+  --color-hoverBg: #031927;
+  --color-secondHoverBg: #20060E;
+  --color-Bg: #030712;
+  --color-box: #06131B;
+  --color-anotherBg: #111013;
+  --color-menuHover: #139BFD;
+  --color-secondMenuHover: #FF014F;
+  --color-button: #FF014F;
+  --color-bluishButton: #0F5682;
+  --color-progressBarExperienceClr: #FF494A;
+  --color-heading: #FF014F;
+  --color-boxBgHover: #2C121A;
+
+  --font-rajdhani: "Rajdhani", "sans-serif";
+  --font-urbanist: "Urbanist", "sans-serif";
+  --font-rubik: "Rubik", "sans-serif";
+  --font-sora: "Sora", "sans-serif";
+  --font-poppinsForText: "Poppins", "sans-serif";
+}
