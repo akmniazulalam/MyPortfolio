@@ -8,6 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      href="https://fonts.googleapis.com/css2?family=Asset&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap"
+      rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
       href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet" />
 
@@ -41,10 +59,14 @@
   <!-- <body class="bg-gradient-to-l from-[#010A10] to-[#021019] text-gray-800 scroll-smooth"> -->
   <body class="bg-boxesBg text-gray-800 scroll-smooth">
     <!-- Navbar -->
-    <header class="fixed w-full bg-[#050709] shadow z-50 py-4 top-0 left-0" id="stickyHeader">
+    <header
+      class="fixed w-full bg-[#050709] shadow z-50 py-4 top-0 left-0"
+      id="stickyHeader">
       <nav
         class="max-w-[1170px] m-auto px-4 py-3 flex items-center justify-between">
-        <a href="#" class="text-xl font-bold text-blue-600 font-rubik">MyPortfolio</a>
+        <a href="#" class="text-3xl font-bold text-blue-600 font-newRocker"
+          >Niazul Alam</a
+        >
         <ul class="flex space-x-6 text-[20px] font-bold font-rajdhani">
           <li>
             <a
@@ -112,46 +134,60 @@
     </header>
 
     <!-- Main Content -->
-    
-      <!-- Home -->
-      <section
-        id="home"
-        class="min-h-screen flex items-center justify-center bg-gradient-to-b from-[#070723] to-[#2E212A]">
-        <div class="text-center">
-          <h2
-            class="text-4xl md:text-5xl font-bold text-blue-700 font-rajdhani">
-            Hi, I'm <span id="element"></span>
-          </h2>
-          <!-- <p class="mt-4 text-lg text-gray-700 font-rubik">
-            Frontend Developer | React & Tailwind Expert
-          </p> -->
-          <a href="src/asset/A.K.M. Niazul Alam(Resume).pdf" target="_blank">
-            <button
-            class="mt-6 px-6 py-2 bg-blue-600 text-white rounded cursor-pointer hover:bg-boxesBg font-sora transition-all duration-300">
-            Download Resume
-          </button>
-          </a>
-        </div>
-      </section>
 
-      <!-- About -->
-      <section id="about" class="max-w-4xl mx-auto px-4 py-[100px]">
+    <!-- Home -->
+    <section
+      id="home"
+      class="min-h-screen bg-gradient-to-b from-[#070723] to-[#2E212A]">
+      <div class="max-w-[1170px] m-auto">
+        <div class="flex items-center justify-between py-[200px]">
+          <div class="">
+            <h2
+              class="text-4xl md:text-5xl font-bold text-white font-rajdhani block pb-5">
+              Hi, I'm Niazul Alam
+            </h2>
+            <h2
+              class="text-4xl md:text-5xl font-bold text-white font-rajdhani block">
+              A <span id="element" class="text-heading"></span>
+            </h2>
+
+            <p class="mt-5 text-lg text-gray-300 font-rubik w-[65%]">
+            Passionate about building user-friendly, pixel-perfect UIs with React and Tailwind CSS.
+          </p>
+            <a href="src/asset/A.K.M. Niazul Alam(Resume).pdf" target="_blank">
+              <button
+                class="mt-10 px-6 py-3 bg-heading text-white rounded-full cursor-pointer hover:bg-boxesBg font-sora transition-all duration-300 block">
+                Download Resume
+              </button>
+            </a>
+          </div>
+          <div class="rounded-2xl border-2 border-[#2E175C] bg-[#bc8f8f] -rotate-2">
+            <img src="src/asset/myImg.png" alt="myImg.png" class="rounded-b-2xl h-[460px] w-[400px]"/>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="bg-about py-[100px]">
+      <div class="max-w-4xl mx-auto px-4">
         <h2
-          class="text-3xl font-bold text-center text-blue-700 mb-6 font-rajdhani">
+          class="text-3xl font-bold text-center text-heading mb-6 font-rajdhani">
           About Me
         </h2>
         <p
-          class="text-gray-700 text-lg leading-relaxed text-center font-poppinsForText">
+          class="text-gray-500 text-lg leading-relaxed text-center font-poppinsForText">
           I'm a passionate web developer skilled in HTML, CSS, JavaScript,
           Tailwind CSS, jQuery, and React. I love building clean and modern UI
           with great user experiences.
         </p>
-      </section>
+      </div>
+    </section>
 
-      <!-- Skills -->
-      <section id="skills" class="max-w-4xl mx-auto px-4 py-[100px]">
-        <h2
-          class="text-3xl font-bold text-center text-blue-700 mb-8 font-rubik">
+    <!-- Skills -->
+    <section id="skills" class="py-[100px] bg-header">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-heading mb-8 font-rubik">
           My Skills
         </h2>
 
@@ -196,7 +232,6 @@
             </div>
           </div>
 
-
           <div>
             <div class="flex justify-between mb-1">
               <span class="text-white font-medium font-rubik">jQuery</span>
@@ -209,7 +244,9 @@
 
           <div>
             <div class="flex justify-between mb-1">
-              <span class="text-white font-medium font-rubik">Tailwind CSS</span>
+              <span class="text-white font-medium font-rubik"
+                >Tailwind CSS</span
+              >
               <span class="text-white font-rubik">90%</span>
             </div>
             <div class="w-full bg-gray-200 rounded-full h-3">
@@ -227,12 +264,14 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Portfolio -->
-      <section id="portfolio" class="max-w-6xl mx-auto px-4 pt-[100px]">
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-[100px] bg-contact">
+      <div class="max-w-6xl mx-auto px-4">
         <h2
-          class="text-3xl font-bold text-center text-blue-700 mb-8 font-rajdhani">
+          class="text-3xl font-bold text-center text-heading mb-8 font-rajdhani">
           Portfolio
         </h2>
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -249,45 +288,130 @@
             <p class="text-gray-600">Description of the project.</p>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Contact -->
-      <section id="contact" class="max-w-3xl mx-auto px-4 py-[100px]">
+    <!-- Contact -->
+    <section id="contact" class="bg-[#050709] py-[100px]">
+      <div class="max-w-[1170px] m-auto px-4">
         <h2
-          class="text-3xl font-bold text-center text-blue-700 mb-6 font-rajdhani">
+          class="text-3xl font-bold text-center text-heading mb-13 font-rajdhani">
           Contact Me
         </h2>
-        <form class="space-y-4">
-          <input
-            type="text"
-            placeholder="Your Name"
-            class="w-full p-3 border rounded placeholder:text-gray-600 text-gray-600 focus:outline-0"
-            required />
-          <input
-            type="email"
-            placeholder="Your Email"
-            class="w-full p-3 border rounded placeholder:text-gray-600 text-gray-600 focus:outline-0"
-            required />
-          <textarea
-            placeholder="Your Message"
-            class="w-full p-3 border rounded h-32 placeholder:text-gray-600 text-gray-600 focus:outline-0 resize-none"
-            required></textarea>
-          <button
-            type="submit"
-            class="bg-blue-600 text-white px-6 py-2 rounded cursor-pointer hover:bg-hoverBg font-sora transition-all duration-300">
-            Send Message
-          </button>
-        </form>
-      </section>
-    
+        <div class="flex gap-x-20 items-center">
+          <form class="space-y-4 bg-[#140C1C] rounded-2xl p-10 w-[50%]">
+            <h3
+              class="font-sora text-[45px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#8852F7] to-[#fdfdff]">
+              Let's Work Together!
+            </h3>
+            <p class="font-sora text-[16px] text-[#dddddd] leading-6 py-4">
+              I design and code beautifully simple things and i love what i do.
+              Just simple like that!
+            </p>
+            <input
+              type="text"
+              placeholder="Your Name"
+              class="w-full bg-[#050709] p-3 border rounded-[10px] placeholder:text-gray-500 placeholder:font-sora text-gray-600 focus:outline-0"
+              required />
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="w-full bg-[#050709] p-3 border rounded-[10px] placeholder:text-gray-500 placeholder:font-sora text-gray-600 focus:outline-0"
+              required />
+            <textarea
+              placeholder="Your Message"
+              class="w-full bg-[#050709] p-3 border rounded-[10px] h-32 placeholder:text-gray-500 placeholder:font-sora text-gray-600 focus:outline-0 resize-none"
+              required></textarea>
+            <button
+              type="submit"
+              class="bg-[#ff014f] text-white px-6 py-3 mt-4 rounded-full cursor-pointer hover:bg-hoverBg font-sora transition-all duration-300">
+              Send Message
+            </button>
+          </form>
+          <div class="grid gap-y-9">
+            <div class="flex gap-5">
+              <div
+                class="bg-gradient-to-b from-[#2a1454] to-[#8750f7] pt-[23px] pb-[19px] px-[22px] rounded-full">
+                <i class="fa-solid fa-phone-volume text-white text-2xl"></i>
+              </div>
+              <div class="">
+                <h4 class="font-sora text-[18px] text-[#dddddd] pb-2.5">
+                  Phone
+                </h4>
+                <a
+                  href="tel:01860978120"
+                  class="font-sora text-[22px] text-white hover:text-[#8750f7] transition-all duration-300"
+                  >+8801860978120</a
+                >
+              </div>
+            </div>
+            <div class="flex gap-5">
+              <div
+                class="bg-gradient-to-b from-[#2a1454] to-[#8750f7] pt-[23px] pb-[19px] px-[22px] rounded-full">
+                <i class="fa-regular fa-envelope text-white text-2xl"></i>
+              </div>
+              <div class="">
+                <h4 class="font-sora text-[18px] text-[#dddddd] pb-2.5">
+                  Email
+                </h4>
+                <a
+                  href="mailto:niazulalam097@gmail.com"
+                  class="font-sora text-[22px] text-white hover:text-[#8750f7] transition-all duration-300"
+                  >niazulalam097@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="flex gap-5">
+              <div
+                class="bg-gradient-to-b from-[#2a1454] to-[#8750f7] h-[70px] pt-[23px] pb-[19px] px-[26px] rounded-full">
+                <i class="fa-solid fa-location-dot text-white text-2xl"></i>
+              </div>
+              <div class="">
+                <h4 class="font-sora text-[18px] text-[#dddddd] pb-2.5">
+                  Address
+                </h4>
+                <h5 class="font-sora text-[21px] text-white leading-9">
+                  60/19/G/16, Uttar Dhalpur, Jakerin <br />
+                  Moshjid Road, Jatrabari, Dhaka-1204
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="text-center py-6 text-gray-600">
-      &copy; 2025 Your Name. All rights reserved.
+    <footer class="text-center pt-13 pb-6 bg-[#25104b]">
+      <a
+        href="#"
+        class="text-3xl font-bold text-blue-600 font-newRocker block pb-6"
+        >Niazul Alam</a
+      >
+      <ul
+        class="flex space-x-6 text-[20px] font-bold font-rajdhani justify-center pb-6">
+        <li>
+          <a href="#about" class="text-white hover:text-blue-600 py-1 px-3"
+            >About</a
+          >
+        </li>
+        <li>
+          <a href="#portfolio" class="text-white hover:text-blue-600 py-1 px-3"
+            >Portfolio</a
+          >
+        </li>
+        <li>
+          <a href="#contact" class="text-white hover:text-blue-600 py-1 px-3"
+            >Contact Me</a
+          >
+        </li>
+      </ul>
+      <p class="text-gray-300">&copy; 2025 Your Name. All rights reserved.</p>
     </footer>
 
-
-    <div id="back-to-top" class="hidden fixed bottom-8 right-8 text-[40px] hover:text-[#ff0b0b] text-[#0239ff] transition-all duration-300">
+    <div
+      id="back-to-top"
+      class="hidden fixed bottom-8 right-8 text-[40px] hover:text-blue-700 text-[#ff014f] transition-all duration-300">
       <a href="#"><i class="fa-regular fa-circle-up"></i></a>
     </div>
     <script src="js/jquery-1.12.4.min.js"></script>

@@ -17,6 +17,8 @@
   --color-header: #06131B;
   --color-textPurple: #8750F7;
   --color-boxesBg: #0f0715;
+  --color-contact: #141414;
+  --color-about: #0a0909;
   --color-hoverBg: #031927;
   --color-secondHoverBg: #20060E;
   --color-Bg: #030712;
@@ -35,4 +37,8 @@
   --font-rubik: "Rubik", "sans-serif";
   --font-sora: "Sora", "sans-serif";
   --font-poppinsForText: "Poppins", "sans-serif";
+
+  --font-newRocker: "New Rocker", "sans-serif";
+  --font-pinyonScript: "Pinyon Script", "sans-serif";
+  --font-asset: "Asset", serif;
 }

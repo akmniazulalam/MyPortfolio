@@ -25,19 +25,22 @@ window.addEventListener("scroll", () => {
 
 var typed = new Typed("#element", {
   strings: [
-    "Niazul Alam.",
-    "an HTML Developer.",
-    "a CSS Expert.",
-    "a Bootstrap Designer.",
-    "a JavaScript Developer.",
-    "a Tailwind Expert.",
-    "a React Developer.",
+    "HTML Developer.",
+    "CSS Expert.",
+    "Bootstrap Designer.",
+    "JavaScript Developer.",
+    "Tailwind Expert.",
+    "React Developer.",
   ],
-  typeSpeed: 50,
-  backSpeed: 50,
-  backDelay: 1000,
+  typeSpeed: 30,
+  backSpeed: 30,
+  backDelay: 1500,
   loop: true,
 });
+
+const cursor = document.querySelector(".typed-cursor");
+cursor.classList.add("text-heading");
+
 
 
 let backToTop = document.getElementById("back-to-top")
@@ -58,10 +61,10 @@ let header = document.getElementById("stickyHeader")
 let animationTriggered = false;
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY < 100) {
+  if (window.scrollY < 200) {
     animationTriggered = false;
   }
-  if (window.scrollY >= 100 && !animationTriggered) {
+  if (window.scrollY >= 200 && !animationTriggered) {
     animationTriggered = true;
 
     
