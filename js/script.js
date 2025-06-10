@@ -47,7 +47,7 @@ cursor.classList.add("text-heading");
 let backToTop = document.getElementById("back-to-top")
 
 window.addEventListener("scroll", () => {
-  if (scrollY > 200) {
+  if (scrollY > 300) {
     backToTop.style.display = "block"
   }
   else{
@@ -79,3 +79,5 @@ window.addEventListener("scroll", () => {
     }, 300); 
   }
 });
+
+

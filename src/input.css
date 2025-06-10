@@ -41,4 +41,6 @@
   --font-newRocker: "New Rocker", "sans-serif";
   --font-pinyonScript: "Pinyon Script", "sans-serif";
   --font-asset: "Asset", serif;
+
+  --shadow-headerShadow: 0 0 30px rgba(135, 80, 247, 0.2);
 }

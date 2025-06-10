@@ -58,13 +58,13 @@
     <style>
       @keyframes animateText {
         0% {
-          transform: translateY(-50px);
+          transform: translateY(-40px);
         }
         100% {
           transform: translateY(0px);
         }
       }
-      .animateText{
+      .animateText {
         animation: animateText 1.5s infinite alternate;
       }
     </style>
@@ -73,7 +73,7 @@
   <body class="bg-boxesBg text-gray-800 scroll-smooth">
     <!-- Navbar -->
     <header
-      class="fixed w-full bg-[#050709] shadow z-50 py-4 top-0 left-0"
+      class="fixed w-full bg-[#050709] shadow-headerShadow z-50 py-4 top-0 left-0"
       id="stickyHeader">
       <nav
         class="max-w-[1170px] m-auto px-4 py-3 flex items-center justify-between">
@@ -165,18 +165,27 @@
             </h2>
 
             <p class="mt-5 text-lg text-gray-300 font-rubik w-[65%]">
-            Passionate about building user-friendly, pixel-perfect UIs with React and Tailwind CSS.
-          </p>
+              Passionate about building user-friendly, pixel-perfect UIs with
+              React and Tailwind CSS.
+            </p>
             <a href="src/asset/A.K.M. Niazul Alam(Resume).pdf" target="_blank">
               <button
                 class="mt-10 px-6 py-3 bg-heading text-white rounded-full cursor-pointer hover:bg-boxesBg font-sora transition-all duration-300 block">
                 Download Resume
               </button>
             </a>
-            <h3 class="animateText text-[75px] text-transparent uppercase font-rajdhani font-bold absolute right-[58px] pt-[160px]" style="-webkit-text-stroke: 1px white;">Web Designer</h3>
+            <h3
+              class="animateText text-[75px] text-transparent uppercase font-rajdhani font-bold absolute right-[65px] pt-[160px]"
+              style="-webkit-text-stroke: 1px white">
+              Web Designer
+            </h3>
           </div>
-          <div class="rounded-2xl border-4 border-[#2E175C] bg-[#bc8f8f] -rotate-2 shadow">
-            <img src="src/asset/myImg.png" alt="myImg.png" class="rounded-b-2xl h-[460px] w-[400px]"/>
+          <div
+            class="rounded-3xl border-2 border-[#2E175C] bg-[#090E13] -rotate-2 shadow">
+            <img
+              src="src/asset/myImage.png"
+              alt="myImage.png"
+              class="rounded-b-3xl h-[460px] w-[420px]" />
           </div>
         </div>
       </div>
@@ -282,24 +291,295 @@
     </section>
 
     <!-- Portfolio -->
-    <section id="portfolio" class="py-[100px] bg-contact">
+    <section id="portfolio" class="py-[100px] bg-boxesBg">
       <div class="max-w-6xl mx-auto px-4">
         <h2
           class="text-3xl font-bold text-center text-heading mb-8 font-rajdhani">
           Portfolio
         </h2>
-        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          <div class="bg-white shadow rounded p-4 hover:shadow-lg">
-            <h3 class="font-semibold text-lg">Project One</h3>
-            <p class="text-gray-600">Description of the project.</p>
+        <p class="text-gray-400 font-rubik text-[18px] mb-13 m-auto text-center leading-8 w-[80%]">
+          Here are some of the projects I’ve built using HTML, CSS, Bootstrap, JavaScript,
+          React, and Tailwind CSS. They reflect my skills in frontend
+          development and UI design, and demonstrate my passion for creating
+          clean, responsive, and user-friendly web experiences.
+        </p>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
+          <div class="bg-[#140C1C] rounded-2xl p-5 group">
+            <div class="overflow-hidden rounded-2xl">
+              <img
+                src="src/asset/shanti.png"
+                alt="shanti.png"
+                class="group-hover:scale-110 transition-transform ease-in-out duration-300 h-[388px]" />
+            </div>
+            <div class="pt-5 text-center">
+              <a
+                href="https://akmniazulalam.github.io/Shanti/"
+                target="_blank"
+                class="inline-block">
+                <svg
+                  class="group/nested"
+                  width="63"
+                  height="63"
+                  viewBox="0 0 63 63"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    fill="#060606"
+                    class="group-hover/nested:fill-[#FF014F] transition-all duration-300" />
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    stroke="#262626"
+                    stroke-width="2"
+                    class="group-hover/nested:stroke-[#FF014F] transition-all duration-300" />
+                  <path
+                    d="M26 24H39M39 24V37M39 24L24 39"
+                    stroke="white"
+                    stroke-width="5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
           </div>
-          <div class="bg-white shadow rounded p-4 hover:shadow-lg">
-            <h3 class="font-semibold text-lg">Project Two</h3>
-            <p class="text-gray-600">Description of the project.</p>
+          <div class="bg-[#140C1C] rounded-2xl p-5 group">
+            <div class="overflow-hidden rounded-2xl">
+              <img
+                src="src/asset/agenc.png"
+                alt="agenc.png"
+                class="group-hover:scale-110 transition-transform ease-in-out duration-300 h-[388px]" />
+            </div>
+            <div class="pt-5 text-center">
+              <a
+                href="https://akmniazulalam.github.io/Agence/"
+                target="_blank"
+                class="inline-block">
+                <svg
+                  class="group/nested"
+                  width="63"
+                  height="63"
+                  viewBox="0 0 63 63"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    fill="#060606"
+                    class="group-hover/nested:fill-[#FF014F] transition-all duration-300" />
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    stroke="#262626"
+                    stroke-width="2"
+                    class="group-hover/nested:stroke-[#FF014F] transition-all duration-300" />
+                  <path
+                    d="M26 24H39M39 24V37M39 24L24 39"
+                    stroke="white"
+                    stroke-width="5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
           </div>
-          <div class="bg-white shadow rounded p-4 hover:shadow-lg">
-            <h3 class="font-semibold text-lg">Project Three</h3>
-            <p class="text-gray-600">Description of the project.</p>
+          <div class="bg-[#140C1C] rounded-2xl p-5 group">
+            <div class="overflow-hidden rounded-2xl">
+              <img
+                src="src/asset/innovate.png"
+                alt="innovate.png"
+                class="group-hover:scale-110 transition-transform ease-in-out duration-300 h-[388px]" />
+            </div>
+            <div class="pt-5 text-center">
+              <a
+                href="https://akmniazulalam.github.io/BootLab/"
+                target="_blank"
+                class="inline-block">
+                <svg
+                  class="group/nested"
+                  width="63"
+                  height="63"
+                  viewBox="0 0 63 63"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    fill="#060606"
+                    class="group-hover/nested:fill-[#FF014F] transition-all duration-300" />
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    stroke="#262626"
+                    stroke-width="2"
+                    class="group-hover/nested:stroke-[#FF014F] transition-all duration-300" />
+                  <path
+                    d="M26 24H39M39 24V37M39 24L24 39"
+                    stroke="white"
+                    stroke-width="5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="bg-[#140C1C] rounded-2xl p-5 group">
+            <div class="overflow-hidden rounded-2xl">
+              <img
+                src="src/asset/real Estate.png"
+                alt="real Estate.png"
+                class="group-hover:scale-110 transition-transform ease-in-out duration-300 h-[388px]" />
+            </div>
+            <div class="pt-5 text-center">
+              <a
+                href="https://akmniazulalam.github.io/Real-Estate/"
+                target="_blank"
+                class="inline-block">
+                <svg
+                  class="group/nested"
+                  width="63"
+                  height="63"
+                  viewBox="0 0 63 63"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    fill="#060606"
+                    class="group-hover/nested:fill-[#FF014F] transition-all duration-300" />
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    stroke="#262626"
+                    stroke-width="2"
+                    class="group-hover/nested:stroke-[#FF014F] transition-all duration-300" />
+                  <path
+                    d="M26 24H39M39 24V37M39 24L24 39"
+                    stroke="white"
+                    stroke-width="5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="bg-[#140C1C] rounded-2xl p-5 group">
+            <div class="overflow-hidden rounded-2xl">
+              <img
+                src="src/asset/techEdge.png"
+                alt="techEdge.png"
+                class="group-hover:scale-110 transition-transform ease-in-out duration-300 h-[388px]" />
+            </div>
+            <div class="pt-5 text-center">
+              <a
+                href="https://akmniazulalam.github.io/TechEdge/"
+                target="_blank"
+                class="inline-block">
+                <svg
+                  class="group/nested"
+                  width="63"
+                  height="63"
+                  viewBox="0 0 63 63"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    fill="#060606"
+                    class="group-hover/nested:fill-[#FF014F] transition-all duration-300" />
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    stroke="#262626"
+                    stroke-width="2"
+                    class="group-hover/nested:stroke-[#FF014F] transition-all duration-300" />
+                  <path
+                    d="M26 24H39M39 24V37M39 24L24 39"
+                    stroke="white"
+                    stroke-width="5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="bg-[#140C1C] rounded-2xl p-5 group">
+            <div class="overflow-hidden rounded-2xl">
+              <img
+                src="src/asset/pearl.png"
+                alt="pearl.png"
+                class="group-hover:scale-110 transition-transform ease-in-out duration-300 h-[388px]" />
+            </div>
+            <div class="pt-5 text-center">
+              <a
+                href="https://pearl-lime.vercel.app/"
+                target="_blank"
+                class="inline-block">
+                <svg
+                  class="group/nested"
+                  width="63"
+                  height="63"
+                  viewBox="0 0 63 63"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    fill="#060606"
+                    class="group-hover/nested:fill-[#FF014F] transition-all duration-300" />
+                  <rect
+                    x="1"
+                    y="1"
+                    width="61"
+                    height="61"
+                    rx="11"
+                    stroke="#262626"
+                    stroke-width="2"
+                    class="group-hover/nested:stroke-[#FF014F] transition-all duration-300" />
+                  <path
+                    d="M26 24H39M39 24V37M39 24L24 39"
+                    stroke="white"
+                    stroke-width="5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -420,7 +700,7 @@
           >
         </li>
       </ul>
-      <p class="text-gray-300">&copy; 2025 Your Name. All rights reserved.</p>
+      <p class="text-gray-300">&copy; 2025 Niazul Alam. All rights reserved.</p>
     </footer>
 
     <div
