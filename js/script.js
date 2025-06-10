@@ -23,6 +23,7 @@ window.addEventListener("scroll", () => {
   });
 });
 
+
 var typed = new Typed("#element", {
   strings: [
     "HTML Developer.",

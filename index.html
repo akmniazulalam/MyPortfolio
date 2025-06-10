@@ -55,6 +55,19 @@
 
     <link rel="stylesheet" href="src/all.min.css" />
     <link rel="stylesheet" href="src/output.css" />
+    <style>
+      @keyframes animateText {
+        0% {
+          transform: translateY(-50px);
+        }
+        100% {
+          transform: translateY(0px);
+        }
+      }
+      .animateText{
+        animation: animateText 1.5s infinite alternate;
+      }
+    </style>
   </head>
   <!-- <body class="bg-gradient-to-l from-[#010A10] to-[#021019] text-gray-800 scroll-smooth"> -->
   <body class="bg-boxesBg text-gray-800 scroll-smooth">
@@ -138,7 +151,7 @@
     <!-- Home -->
     <section
       id="home"
-      class="min-h-screen bg-gradient-to-b from-[#070723] to-[#2E212A]">
+      class="min-h-screen bg-gradient-to-b from-[#0f0715] to-[#1c0d28]">
       <div class="max-w-[1170px] m-auto">
         <div class="flex items-center justify-between py-[200px]">
           <div class="">
@@ -160,8 +173,9 @@
                 Download Resume
               </button>
             </a>
+            <h3 class="animateText text-[75px] text-transparent uppercase font-rajdhani font-bold absolute right-[58px] pt-[160px]" style="-webkit-text-stroke: 1px white;">Web Designer</h3>
           </div>
-          <div class="rounded-2xl border-2 border-[#2E175C] bg-[#bc8f8f] -rotate-2">
+          <div class="rounded-2xl border-4 border-[#2E175C] bg-[#bc8f8f] -rotate-2 shadow">
             <img src="src/asset/myImg.png" alt="myImg.png" class="rounded-b-2xl h-[460px] w-[400px]"/>
           </div>
         </div>
