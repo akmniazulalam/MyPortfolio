@@ -71,7 +71,7 @@
   </head>
   <body class="bg-boxesBg text-gray-800 scroll-smooth">
     <!-- Navbar -->
-    <header
+    <!-- <header
       class="fixed w-full bg-[#050709] shadow-headerShadow z-50 py-4 top-0 left-0"
       id="stickyHeader">
       <nav class="max-w-[1170px] m-auto py-3 flex items-center justify-between">
@@ -141,6 +141,175 @@
             ></a>
           </li>
         </ul>
+      </nav>
+    </header> -->
+
+
+    <header
+      class="fixed w-full bg-[#050709] shadow-headerShadow z-50 py-4 top-0 left-0"
+      id="stickyHeader">
+      <nav
+        class="navbar md:max-w-[750px] lg:max-w-[1170px] m-auto py-3 flex items-center md:justify-between">
+        <div
+          class="navbar-start md:w-[30%] lg:w-1/2 md:justify-start xs:w-full xs:justify-center">
+          <div class="dropdown">
+            <div
+              tabindex="0"
+              role="button"
+              class="btn btn-ghost hover:bg-[#031927] shadow-none md:hidden lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="white">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-[#140C1C] rounded-box z-1 mt-3 xs:top-[86%] xs:left-[-100%] xs:w-[333px] sm:w-[440px] sm:left-[-200%] p-2 shadow">
+              <li class="m-auto">
+                <a
+                  href="#home"
+                  class="nav-link text-white hover:text-blue-600 xs:text-[17px] font-semibold py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                  >Home</a
+                >
+              </li>
+              <li class="m-auto">
+                <a
+                  href="#about"
+                  class="nav-link text-white hover:text-blue-600 xs:text-[17px] font-semibold py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                  >About</a
+                >
+              </li>
+              <li class="m-auto">
+                <a
+                  href="#skills"
+                  class="nav-link text-white hover:text-blue-600 xs:text-[17px] font-semibold py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                  >Skills</a
+                >
+              </li>
+              <li class="m-auto">
+                <a
+                  href="#portfolio"
+                  class="nav-link text-white hover:text-blue-600 xs:text-[17px] font-semibold py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="m-auto">
+                <a
+                  href="#contact"
+                  class="nav-link text-white hover:text-blue-600 xs:text-[17px] font-semibold py-1 px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                  >Contact Me</a
+                >
+              </li>
+              <div class="flex py-3 justify-center space-x-5">
+                <li>
+                <a
+                  href="https://www.linkedin.com/in/akmniazulalam/"
+                  target="_blank"
+                  class="text-white hover:text-blue-600 p-3.5 rounded-full bg-[#1e1e1e] hover:bg-hoverBg transition-all duration-500"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/akmniazulalam"
+                  target="_blank"
+                  class="text-white hover:text-blue-600 px-4 py-3.5 rounded-full bg-[#1e1e1e] hover:bg-hoverBg transition-all duration-500"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.github.com/akmniazulalam"
+                  target="_blank"
+                  class="text-white hover:text-blue-600 p-3.5 rounded-full bg-[#1e1e1e] hover:bg-hoverBg transition-all duration-500"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              </div>
+            </ul>
+          </div>
+          <a href="#" class="md:text-2xl lg:text-3xl text-3xl font-bold text-blue-600 font-newRocker"
+            >Niazul Alam</a
+          >
+        </div>
+
+        <div class="navbar-center hidden md:flex">
+          <ul class="flex lg:space-x-6 md:space-x-2 text-[20px] font-bold font-rajdhani">
+            <li>
+              <a
+                href="#home"
+                class="nav-link text-white md:text-[16px] lg:text-[20px] md:px-2 hover:text-blue-600 py-1 lg:px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                class="nav-link text-white md:text-[16px] lg:text-[20px] md:px-2 hover:text-blue-600 py-1 lg:px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#skills"
+                class="nav-link text-white md:text-[16px] lg:text-[20px] md:px-2 hover:text-blue-600 py-1 lg:px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a
+                href="#portfolio"
+                class="nav-link text-white md:text-[16px] lg:text-[20px] md:px-2 hover:text-blue-600 py-1 lg:px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="nav-link text-white md:text-[16px] lg:text-[20px] md:px-2 hover:text-blue-600 py-1 lg:px-3 hover:bg-hoverBg hover:rounded-[3px] transition-all duration-500"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="navbar-end lg:w-1/2 md:w-[30%] hidden md:flex">
+          <ul
+            class="hidden md:flex md:space-x-3.5 lg:space-x-6 text-[20px] font-bold font-rajdhani">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/akmniazulalam/"
+                target="_blank"
+                class="text-white hover:text-blue-600 md:py-1.5 md:px-[11px] lg:py-2.5 lg:px-[15px] rounded-full bg-[#1e1e1e] hover:bg-hoverBg transition-all duration-500"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/akmniazulalam"
+                target="_blank"
+                class="text-white hover:text-blue-600 md:py-1.5 md:px-[13px] lg:py-2.5 lg:px-[17px] rounded-full bg-[#1e1e1e] hover:bg-hoverBg transition-all duration-500"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.github.com/akmniazulalam"
+                target="_blank"
+                class="text-white hover:text-blue-600 md:py-1.5 md:px-2.5 lg:py-2.5 lg:px-3.5 rounded-full bg-[#1e1e1e] hover:bg-hoverBg transition-all duration-500"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
