@@ -45,4 +45,5 @@
   --shadow-headerShadow: 0 0 30px rgba(135, 80, 247, 0.2);
 
   --breakpoint-xs: 360px;
+  /* --breakpoint-xs: { min: '360px', max: '639.99px' }; */
 }
